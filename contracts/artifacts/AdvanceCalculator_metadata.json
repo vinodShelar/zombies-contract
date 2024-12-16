@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "operation",
+						"type": "uint8"
+					}
+				],
+				"name": "performOperations",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionVisibility.sol": "AdvanceCalculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionVisibility.sol": {
+			"keccak256": "0xeebb0a7a2c15a3d717c9e025234e098f77f761b31d2306009a762ea60715bb24",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03cab278d5c365c48af73eb366c9bad372ba6f7bcc93271de9be561eb030fb13",
+				"dweb:/ipfs/QmWFV2p6xWTbR492dZngPmq2txqxQYr4xdZfGPWBYdoyk5"
+			]
+		}
+	},
+	"version": 1
+}

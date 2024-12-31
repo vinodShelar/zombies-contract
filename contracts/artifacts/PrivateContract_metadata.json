@@ -6,16 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "result",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "newValue",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "setPrivateVariable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/privatevisibility.sol": "BasicCalculator"
+			"contracts/privatevisibility.sol": "PrivateContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/privatevisibility.sol": {
-			"keccak256": "0xf8ab2e6a6304ed95c0778028c30aab831d84d7c5eb781246ff9ebd42200af9ae",
+			"keccak256": "0x93f86b4dc625807fe9f2049240bc77e4b4779da0b77284c6c81ea33e4c8d031d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aef7c4157fe37e5bc8d81efa584273e17238cef01af8a2b1966cbb54eeff96b1",
-				"dweb:/ipfs/QmXD57zV3euEPBBS5mWrGNRoKtH9etZYMnvpkvvFKF41E5"
+				"bzz-raw://358e67074f18752afe862abaa47e397d2f016582122efd4757cf560e03cc1531",
+				"dweb:/ipfs/QmSwQqLAsXwBJ3xTNyDdEu2EV1A2QhYLqaERs8ywXXP5a8"
 			]
 		}
 	},

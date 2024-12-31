@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_tweet",
+						"type": "string"
+					}
+				],
+				"name": "createTweet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/twitter.sol": "Twiiter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/twitter.sol": {
+			"keccak256": "0xa0379bcb119966d5fbc598325171b37df740f8c837d26358f958b73ac4e097f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e76a77fc401115cc6faa9d538c0e24fb4cb54f003b1f155ac8b76ae447cedbda",
+				"dweb:/ipfs/Qmcr6EnV93a9BvRqMZnsAQCTt5fYzWJ1xnwXQ5jCzqQD54"
+			]
+		}
+	},
+	"version": 1
+}

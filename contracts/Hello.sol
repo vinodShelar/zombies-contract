@@ -3,7 +3,5 @@
 pragma solidity ^0.8.18;
 
 contract Hello{
-    string public  welcome= "Hello World";
-    address userAddress = 0*475295289572
-
+    string public hello="Hello Welcome to the course of one of the best solidity course...";
 }

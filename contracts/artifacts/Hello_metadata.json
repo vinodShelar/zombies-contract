@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "welcome",
+				"name": "hello",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Hello.sol": {
-			"keccak256": "0x75830b16c695b01db60a67c0501a805d824e3faecbd47ca0970d054ab5d74696",
+			"keccak256": "0x980fa7345d58d4f21f9773dab5a87e9f3602da8e11334c32479fad2575b7f1e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://28af382088362a01f14f03663494ab83e823fdfd7b497987ebe8a5b12e19b0bb",
-				"dweb:/ipfs/QmNsX44JBJrP1t1mRR9PYxEVNev13DqPLSkNUuwRAkX2uU"
+				"bzz-raw://ae6d13993b01e2cc6963c0d0a9f9fcdd2794eedda84fbbe3774f7bf946f63527",
+				"dweb:/ipfs/QmdYoadi5qLjBd5QSRHhcS1gTrbig1kH58vsEpwbDwytwC"
 			]
 		}
 	},

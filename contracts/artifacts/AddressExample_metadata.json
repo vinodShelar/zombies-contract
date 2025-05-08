@@ -11,13 +11,51 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposited",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdrawn",
+				"type": "event"
+			},
+			{
 				"inputs": [],
-				"name": "getOwner",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -35,6 +73,35 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -65,11 +132,11 @@
 	},
 	"sources": {
 		"contracts/Address.sol": {
-			"keccak256": "0x6e5f4659410ea2202a325af27bb8f49c103be727f4e1510abbaa8dd3377131ca",
+			"keccak256": "0x8836e01799db935d65d9375eaa2d54fc4cfe957035b2b3e94d92c475a097b4f4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6407b5d5166466627fae09e0b97c6b6675bd30d8d09e663b5fac4d3f47e3465c",
-				"dweb:/ipfs/QmNP6frNnpcDeb5e7sWvhn8D3ji7VPWkL8Q4SodYTzFBZN"
+				"bzz-raw://9aacb0896fee41bfaad1793c7d5393076747e7f9300348f0f2810619c6bef0fe",
+				"dweb:/ipfs/QmYdseHVLpsnijYdgs8CQ2mkd5CggYAbUstomHUFmQ6voo"
 			]
 		}
 	},
